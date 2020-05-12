@@ -7,22 +7,21 @@ public class team{
 		int [][] nums = new int [n][3];
 		int count = 0;
 	
-		for(int i = 0; i < nums.length; i++){
-			for(int j = 0; j < nums[i].length; j++){
+		for(int i = 0; i < n; i++){
+			for(int j = 0; j < 3; j++){
 				nums[i][j] = in.nextInt();
 			
 			}
 		
 	}
-		for(int k = 0; k < nums.length; k++){
+		for(int k = 0; k < n; k++){
 			int add = 0;
-			for(int l = 0; l < 3; l++){
+			for(int l = 0; l < nums[k].length; l++){
 				add = add + nums[k][l];
 				if(add >= 2){
 					count++;
+					break;
 				}
-
-				
 
 			}
 			
