@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class team{
+public class team2{
 	static Scanner in = new Scanner(System.in);
 	
 	public static void main(String[]args){
@@ -20,6 +20,5 @@ public class team{
 	
 	}
 }
-
 
 
