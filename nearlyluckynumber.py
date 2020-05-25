@@ -1,14 +1,9 @@
-n = int(input())
-count = 0
+n = input()
 
-while n != 0:
-    if n % 10 == 4 or n % 10 == 7:
-        count +=1
+total = n.count("7") + n.count("4")
 
-    n = int(n / 10)
-
-
-if count == 4 or count == 7:
+if 7 is total or 4 is total:
     print("YES")
 else:
     print("NO")
+    
