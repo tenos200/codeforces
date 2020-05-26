@@ -22,15 +22,12 @@ public class word{
 			}
 		}
 
-		if(upper == lower){
-			System.out.println(s.toLowerCase());
-		}
 
 		if(upper > lower){
 			System.out.println(s.toUpperCase());
 		
 		}
-		if(lower > upper){
+		else{
 			System.out.println(s.toLowerCase());
 		}
 	}
