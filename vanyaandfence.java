@@ -18,6 +18,7 @@ public class vanyaandfence{
 			
 			
 			}
+
 			else{
 			res = res + 2;	
 			
