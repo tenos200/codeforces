@@ -14,7 +14,7 @@ public class vanyaandfence{
 			int f = in.nextInt();
 			
 			if(f <= h){
-				res = res + 1;	
+				res++;
 			
 			
 			}
