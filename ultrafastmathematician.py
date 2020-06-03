@@ -1,12 +1,12 @@
 n = input()
 n2 = input()
 
-s = ""
+s = [] 
 
 for i in range(len(n)):
     if n[i] != n2[i]:
-        s = s + "1" 
+        s.append("1")
     else:
-        s = s + "0"
+        s.append("0")
         
-print(s)
+print("".join(s))
