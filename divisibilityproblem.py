@@ -1,10 +1,9 @@
-n = int(input())
 
-for i in range(n):
-    a, b  = input().split()
+for i in range(int(input())):
+    a, b  = map(int, input().split())
 
-    if int(a) % int(b) == 0:
+    if a % b == 0:
         print(0)
     else:
-        print(int(b) - int(a) % int(b))
+        print(b - a % b)
 
