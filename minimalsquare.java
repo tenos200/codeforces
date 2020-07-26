@@ -14,7 +14,7 @@ public class minimalsquare{
 			int a = in.nextInt(), b = in.nextInt();
 			int min = Math.min(a, b);
 			int max = Math.max(a, b);
-			int ans = Math.max(min* 2, max);
+			int ans = Math.max(min * 2, max);
 
 			System.out.println(ans*ans);
 		}
