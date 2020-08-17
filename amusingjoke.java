@@ -6,6 +6,8 @@ public class amusingjoke{
 	static Scanner in = new Scanner(System.in);
 
 	public static void main(String[]args){
+
+			
 		
 		String res = "YES";  
 		String a = in.nextLine();
