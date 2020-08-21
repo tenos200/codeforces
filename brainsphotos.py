@@ -5,6 +5,5 @@ for i in range(n):
   s = list(map(str, input().split())) 
   for i in s:
     if i == "Y" or i == "C" or i ==  "M":
-      ans = "#Color" 
 
 print(ans) 

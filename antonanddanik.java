@@ -5,7 +5,7 @@ public class antonanddanik{
 	static Scanner in = new Scanner(System.in);
 
 	public static void main(String[]args){
-		
+
 		int A = 0;
 		int D = 0;
 
