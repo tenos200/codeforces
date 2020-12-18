@@ -19,6 +19,5 @@ int main (void) {
 			printf("%d\n", ((n-3)/x) + 2);
 		}
 	}
-
 	return 0;
 }
